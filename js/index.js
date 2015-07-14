@@ -4,7 +4,7 @@ var eltextbox = document.getElementById("textBox");
 var elImage = document.getElementById("imgBox");
 var elhisDeal = document.getElementById("hisDeal");
 
-//List of possible output messages for what his deal is
+// List of possible output messages for what his deal is
 var listHisDeals = [
   "He's just constipated.",
   "He's self-conscious about his receding hairline.",
@@ -20,8 +20,6 @@ var listHisDeals = [
   "He's preoccupied with thinking about conflicts in the Middle East.",
   "He started studying Buddhism.",
   "He saw 'Fight Club' for the first time last night.",
-  "He accidentally the whole thing.",
-  "He spent all his money buying up Twinkies when Hostess filed for bankruptcy.",
   "He's not into gaming as much as you are and that intimidates him.",
   "He thinks he's immune to social pressure but he's actually just a jerk.",
   "Male privilege, probably.",
@@ -29,7 +27,6 @@ var listHisDeals = [
   "Someone caught a pic of him sleeping during class and he's kinda embarassed about it.",
   "He has an unhealthy relationship with his phone.",
   "He bought a lottery ticket and really thinks he'll win this time.",
-  "He thinks you're trying to sell him Amway.",
   "He's a business major. He'll grow out of it.",
   "His pants shrunk in the wash.",
   "He's just not that into you. :(",
@@ -39,10 +36,10 @@ var listHisDeals = [
   "He's waiting for the right time to tell you that he's your long lost brother.",
   "He's still sore about the time you ate the last french fry off his plate even though he said you could have it.",
   "He's really paranoid about 'Game of Thrones' spoilers.",
-  "He forgot about Dre.",
   "He doesn't know he's beautiful.",
   "He thought of a perfect commit message but he already pushed his code.",
-  "He's a food truck chaser."
+  "Just stop. You can do way better.",
+  "He doesn't know functional programming."
 ];
 
 //List of possible output messages if no input entered
